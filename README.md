@@ -24,7 +24,7 @@ A simple lead capture form built with React, Vite, and Tailwind CSS. This form c
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/lead-capture-form.git
+   git clone https://github.com/Abdulaziz6921/capture_form.git
    ```
 
 2. Navigate to the project directory:
@@ -77,29 +77,5 @@ POST https://deadlinetaskbot.productlove.ru/api/v1/tasks/client/newhardtask
 ### Example API Request
 
 ```sh
-POST https://deadlinetaskbot.productlove.ru/api/v1/tasks/client/newhardtask?token=your-token&title=TaskTitle&description=TaskDescription&tags=tag1,tag2&budget_from=1000&budget_to=5000&deadline=5&reminds=3&all_auto_responses=false&rules={"budget_from":1000,"budget_to":5000,"deadline_days":5,"qty_freelancers":1,"task_id":123}
+POST https://deadlinetaskbot.productlove.ru/api/v1/tasks/client/newhardtask?token=317ad1fc-e0a9-11ef-a978-0242ac120007&title=dsfasdfadsfsdf&description=dfasdfasdfasdfasdfsd&tags=sdfasdfsdf&budget_from=45353&budget_to=45435453&deadline=16&reminds=5&all_auto_responses=false&rules=%7B%22budget_from%22:45353,%22budget_to%22:45435453,%22deadline_days%22:16,%22qty_freelancers%22:3,%22task_id%22:84%7D
 ```
-
-## 🚀 Deployment
-
-1. Build the project:
-
-   ```sh
-   npm run build
-   ```
-
-2. Deploy to Vercel:
-
-   ```sh
-   vercel
-   ```
-
-3. Share the deployed link with the required Telegram account.
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-Feel free to contribute or suggest improvements! 😊

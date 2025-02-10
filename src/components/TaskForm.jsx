@@ -69,8 +69,9 @@ export function TaskForm({
         type="number"
         value={formData.reminds}
         onChange={handleChange}
-        required
         placeholder="Add any reminders"
+        required
+        min="0"
       />
 
       <FormField
